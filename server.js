@@ -1,8 +1,11 @@
-var express=require('express');
-var app=express();
+const express=require('express');
+const app=express();
 
-var port= process.env.PORT || 5000
+app.get('/', (request,response)=> response.send('hello'));
 
-app.listen(port, function(){
-   console.log("port open "+port);
-});
+
+
+
+const port= process.env.PORT || 5000
+
+app.listen(port, ()=> console.log("port open "+port));
