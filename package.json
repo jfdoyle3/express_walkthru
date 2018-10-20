@@ -1,0 +1,19 @@
+{
+  "name": "express_walkthru",
+  "version": "1.0.0",
+  "description": "express walkthru with Cliff",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jfdoyle3/express_walkthru.git"
+  },
+  "author": "Jim Doyle for Careerdevs",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jfdoyle3/express_walkthru/issues"
+  },
+  "homepage": "https://github.com/jfdoyle3/express_walkthru#readme"
+}
