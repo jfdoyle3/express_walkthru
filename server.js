@@ -1,5 +1,5 @@
 const express=require('express');
-con.st app=express();
+const app=express();
 
 app.get('/', (request,response)=> response.send('<h1>hello</h1>'));
 
